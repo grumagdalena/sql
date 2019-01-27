@@ -1,4 +1,3 @@
-ALTER procedure [dbo].[Marze] AS 
 SELECT dateadd(month, datediff(month, 0, [SprzedazData]),0) AS RokMiesiac,
 sum(ZakupKwota) as ZakupKwotaSuma,
 sum(SrzedazKwota) as SprzedazKwotaSuma,
